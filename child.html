@@ -1,0 +1,115 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> Anime Movies</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="anime.html">ANIME</a></li>
+				<li><a href="action.html">ACTION</a></li>
+				<li><a href="child.html">CHILD</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class="text-box">
+	<h1>Anime Movies</h1>
+	<p>This websites gets you updated to all the anime movies<br>that had been released.</p>
+	<a href="" class="hero-btn">Visit Us To Watch Different Anime Movies</a>
+</div>
+
+</section>
+
+<!----- child ----->
+
+<section class="child">
+	<h1>CHILD MOVIES</h1>
+	<div class="row">
+		<div class="child-col">
+			<img src="images/child1.jpg">
+			<h4>The Cat Returns</h4>
+			<p>The Cat Returns is a good cat movie. Schoolgirl Haru is able to talk to cats and one day she saves a cat from getting run over. The cat wasn’t any old feline, but the Prince of the Cat Kingdom. Kids of all ages should enjoy The Cat Returns</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="child-col">
+			<img src="images/child2.jpg">
+			<h4>Made in Abyss Journeys Dawn</h4>
+			<p>A girl named, Riko and her robot friend, Reg, journey down into a deadly, otherworldly chasm, known as the Abyss, in search of her lost mother</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="child-col">
+			<img src="images/child3.png">
+			<h4>Ponyo</h4>
+			<p>A young boy named Sosuke rescues a goldfish named Ponyo, and they embark on a fantastic journey of friendship before Ponyo's father forces her to return to the sea. Ponyo's desire to be human upsets the balance of nature and only Ponyo's mother can restore nature's balance and make Ponyo's dreams come true.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="child-col">
+			<img src="images/child4.jpg">
+			<h4>Kiki's Delivery Service</h4>
+			<p>It tells the story of Kiki, a young witch who moves to a new town and uses her flying ability to earn a living.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="child-col">
+			<img src="images/child5.jpeg">
+			<h4>Mirai</h4>
+			<p>Kun's sister Mirai, Japanese for "future", is born, and he is happy at first but soon grows jealous when his parents focus all their attention on her. He lashes out at his parents, especially when his father becomes a work at home parent conducting remote work, while his mother returns to the office.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="child-col">
+			<img src="images/child6.png">
+			<h4>Spirited Away</h4>
+			<p>When her parents undergo a mysterious transformation, Chihiro must fend for herself as she encounters strange spirits, assorted creatures and a grumpy sorceress who seeks to prevent her from returning to the human world. 10-year-old Chihiro and her parents stumble upon a seemingly abandoned amusement park.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+	</div>
+</section>
+<h4>Back to main page <a href = "index.html"> here!</a></h4>
+
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+<!------- Footer -------->
+<section class="footer">
+
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-github"></i>
+	</div>
+	<p>Made by<i class="fa fa-heart-o"></i> Charedel De Mesa</p>
+</section>
+
+
+
+</body>
+
+
+</html>

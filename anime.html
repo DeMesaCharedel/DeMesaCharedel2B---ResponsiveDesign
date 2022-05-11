@@ -1,0 +1,115 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> Anime Movies</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<body>
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="images/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="anime.html">ANIME</a></li>
+				<li><a href="action.html">ACTION</a></li>
+				<li><a href="child.html">CHILD</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+
+<div class="text-box">
+	<h1>Anime Movies</h1>
+	<p>This websites gets you updated to all the anime movies<br>that had been released.</p>
+	<a href="" class="hero-btn">Visit Us To Watch Different Anime Movies</a>
+</div>
+
+</section>
+
+<!-------- Anime -------->
+<section class="anime">
+	<h1>POPULAR ON ANIME</h1>
+	<div class="row">
+		<div class="anime-col">
+			<img src="images/image1.jpg">
+			<h4>Bubble</h4>
+			<p>Anime movie based in a post-apocalyptic Tokyo where the rules of gravity are different and youngsters indulge in parkour battles.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="anime-col">
+			<img src="images/image2.jpg">
+			<h4>Detective Conan: The Bride of Halloween</h4>
+			<p>The Bride of Halloween will focus on a mystery involving a dangerous and mysterious bomber called Plamya</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="anime-col">
+			<img src="images/image3.jfif">
+			<h4>A Whisker Away</h4>
+			<p>A peculiar girl transforms into a cat to catch her crush's attention. But before she realizes it, the line between human and animal starts to blur.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="anime-col">
+			<img src="images/image4.jpeg">
+			<h4>Kimi no Na wa</h4>
+			<p> It depicts a high school boy in Tokyo and a high school girl in the Japanese countryside who suddenly and inexplicably begin to swap bodies.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="anime-col">
+			<img src="images/image5.jpg">
+			<h4>Haikyu!!</h4>
+			<p>The story follows Shoyo Hinata, a boy determined to become a great volleyball player despite his small stature.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+		<div class="anime-col">
+			<img src="images/image6.jpeg">
+			<h4>Suzume no Tojimari</h4>
+			<p>The movie is set in abandoned places located all over Japan centering on a 17-year-old girl. It is the first announcement of his new anime movie following Weathering with You in 2019.</p>
+			<a href="#" class="btn">Download</a>
+		</div>
+	</div>
+
+<h4>Back to main page <a href = "index.html"> here!</a></h4>
+
+</section>
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+<!------- Footer -------->
+<section class="footer">
+
+
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-github"></i>
+	</div>
+	<p>Made by<i class="fa fa-heart-o"></i> Charedel De Mesa</p>
+</section>
+
+
+
+</body>
+
+
+</html>
